@@ -1,13 +1,14 @@
-package com.logistica.clients;
+package com.codeki.logistics;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class ClientsApplication {
+public class LogisticsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClientsApplication.class, args);
+		SpringApplication.run(LogisticsApplication.class, args);
 	}
 
 }
